@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Panier">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title>Mon panier</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index/index.html"><img src="../../../img/logo.png" alt="logo orinoco" /></a>
+        <nav>
+            <a href="../index/index.html">Accueil</a>
+            <a href="cart.html">Mon panier</a>
+            <div class="menu"></div>
+        </nav>
+    </header>
+    <section>
+        <h1>Mon panier</h1>
+        <div class="cart_content" id="content"></div>
+    </section>
+
+
+    <section class="form" id="cart_form">
+        <h3 id="totalPrice"></h3>
+        <button class="btn-order" id="btn-clear">Vider le panier</button>
+
+        <!-- form -->
+        <form id="form1">
+            <div class="coord_form">
+                <p class="legends_form"> Vos coordonnées : </p>
+
+                <label for="nom">Nom :</label>
+                <input type="text" name="lastname" id="nom" required />
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" name="name" id="prenom" required />
+
+                <label for="email">E-mail :</label>
+                <input type="email" name="email" id="email" required />
+
+                <label for="phone">Téléphone :</label>
+                <input type="tel" name="phone" id="phone" required />
+            </div>
+
+            <div class="adresse_form">
+                <p class="legends_form">Adresse de livraison : </p>
+
+                <label for="adresse">Adresse :</label>
+                <input type="text" name="adress" id="adresse" required />
+
+                <label for="zip">Code postal :</label>
+                <input type="number" name="zip" id="zip" required />
+
+                <label for="ville">Ville :</label>
+                <input type="text" name="city" id="ville" required />
+
+                <label for="pays">Pays :</label>
+                <input type="text" name="country" id="pays" required />
+            </div>
+        </form>
+
+        <button id="btn-order" class="btn-order" type="submit" value="submit" form="form1">Passer la commande</button>
+
+    </section>
+
+    <script src="../../function.js"></script>
+    <script src="./cart.js"></script>
+</body>
+
+</html>

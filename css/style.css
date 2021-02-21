@@ -1,0 +1,114 @@
+.navigation{
+    margin-left:20px;
+}
+.nav-link{
+    margin-left: 40px;
+}
+/* .logo{
+    margin-left: 20px;
+} */
+
+.arguments{
+    padding:30px;
+    font-family: tahoma;
+    color: rgb(83, 79, 83);
+}
+section, header{
+    background: rgb(219, 161, 122);
+}
+.row{
+    background: white;
+}
+.argumentaire{
+    font-style: italic;
+    font-size: 1.1em;
+}
+.auteur_citation{
+    font-size: 0.9em;
+}
+.guillemets{
+    font-size: 1.2em;
+}
+.article{
+    padding-top:20px;
+}
+.ajouter_panier{
+    background-color: #4CAF50;
+    width:170px;
+    border-color: rgb(235, 241, 241);
+    color:rgb(255, 255, 255);
+    margin-top:10px;
+}
+.prix_ours{
+    font-size: 1.3em;
+    margin-left: 3.5em;
+    margin-bottom:10px;
+}
+.cart{
+    display:flex;
+    flex-direction: column;
+}
+#articles_page_accueil{
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+.image_ours{
+    
+    margin-left:auto;
+    width:320px;
+    height:200px;
+    object-fit: cover;
+}
+.mesarticles{
+    background: red;
+    margin-left:20px;
+    
+}
+#nom{
+    font-size: 2em;
+}
+#color{
+    margin-top: 20px;
+}
+#ajouter_panier{
+    margin-top: 20px;
+}
+#number{
+    margin-top: 20px;
+}
+#price{
+    margin-top: 10px;
+}
+
+/* PANIER */
+
+#article{
+    margin-top:3em;
+}
+.test{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:2em;
+}
+
+#quantity_incart{
+    height:2em;
+}
+@media only screen and (max-width: 500px) {
+    .name_panier{
+        display:none;
+    }
+}
+.cart-counter{
+    display:inline-block;
+    width:20px;
+    opacity:0;
+    height:20px;
+    background:#ddd;
+    text-align:center;
+    border-radius:50%;
+    margin-left:10px;
+    
+  }
